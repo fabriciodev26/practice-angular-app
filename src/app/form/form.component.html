@@ -1,0 +1,22 @@
+<form #actorForm="ngForm">
+  <label for="name">Name: </label>
+  <input
+    type="text"
+    [(ngModel)]="name"
+    [ngModelOptions]="{ standalone: true }"
+  />
+  <input
+    type="number"
+    [(ngModel)]="age"
+    [ngModelOptions]="{ standalone: true }"
+  />
+  <input
+    type="text"
+    [(ngModel)]="lastname"
+    [ngModelOptions]="{ standalone: true }"
+  />
+</form>
+
+<p>Value: {{ name }}</p>
+<p>Value: {{ lastname }}</p>
+<p>Value: {{ age }}</p>

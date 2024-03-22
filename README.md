@@ -1,27 +1,49 @@
-# AngularApp
+## Guía de aprendizaje: Angular 17 con Tailwind CSS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+**Objetivo:**
 
-## Development server
+Aprender los fundamentos básicos de Angular 17 y Tailwind CSS para crear un sencillo "todo list".
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Requisitos:**
 
-## Code scaffolding
+- Node.js y npm instalados.
+- Editor de código (Visual Studio Code, Sublime Text, etc.).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Pasos:**
 
-## Build
+**1. Instalación:**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Instalar Angular CLI: `npm install -g @angular/cli`
+- Crear un nuevo proyecto: `ng new mi-app`
+- Navegar al proyecto: `cd mi-app`
+- Instalar Tailwind CSS: `npm install tailwindcss`
 
-## Running unit tests
+**2. Documentación:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Angular 17:**
+  - Guía oficial: [https://angular.dev](https://angular.dev)
+  - Tutoriales: [https://angular.dev/tutorials/learn-angular](https://angular.dev/tutorials/learn-angular)
+- **Tailwind CSS:**
+  - Documentación: [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
+  - Tutorial: [https://tailwindcss.com/docs/guides/angular](https://tailwindcss.com/docs/guides/angular)
 
-## Running end-to-end tests
+**3. Aprendizaje:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular 17:**
+  - Familiarízate con los conceptos básicos: componentes, plantillas, módulos, servicios, etc.
+  - Sigue los tutoriales de la guía oficial para crear una aplicación simple.
+- **Tailwind CSS:**
+  - Aprende las clases básicas y cómo usarlas para estilizar elementos HTML.
+  - Experimenta con las clases para crear diferentes estilos.
 
-## Further help
+**4. Creación del "to-do list":**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Crea un componente para la lista de tareas.
+- Define la estructura HTML de la lista y cada tarea.
+- Usa Tailwind CSS para estilizar la lista y las tareas.
+- Implementa la lógica para agregar, eliminar y editar tareas.
+- Guardalo en el localStorage
+
+**Conclusión:**
+
+Esta guía te proporciona un punto de partida para aprender de manera básica Angular 17 y Tailwind CSS. Sigue los pasos, utiliza los recursos adicionales y experimenta para crear un "todo list" funcional y atractivo.

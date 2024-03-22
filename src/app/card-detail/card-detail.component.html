@@ -1,0 +1,14 @@
+@if (isLoggedIn){
+<div class="container">
+  <p>card-detail works! {{ username }}</p>
+  <div class="action">
+    <button (click)="decrement()">-</button>
+    <p>
+      {{ value }}
+    </p>
+    <button (click)="increment()">+</button>
+  </div>
+</div>
+} @else{
+<p>Inicia Sesion</p>
+}

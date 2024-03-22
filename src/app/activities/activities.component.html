@@ -1,0 +1,15 @@
+<ul>
+  @for (activity of activities; track activity.id) {
+  <li>{{ activity.action }}</li>
+  }@empty {
+  <li>No hay actividades.</li>
+  }
+</ul>
+<p>{{ nombre }}</p>
+<img
+  ngSrc="https://travelsandliving.com/wp-content/uploads/2016/01/adorable-smiling-dogs-4-e1453995060270.jpg"
+  alt=""
+  priority
+  width="250"
+  height="400"
+/>

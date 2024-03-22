@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+/** General Styles **/
+:root {
+    color-scheme: light dark;
+}
+header,
+nav,
+main,
+aside,
+form,
+footer,
+div,
+section,
+article,
+fieldset,
+summary,
+legend,
+menu,
+figure,
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+input,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+label,
+canvas,
+details,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
