@@ -13,10 +13,12 @@ Aprender los fundamentos básicos de Angular 17 y Tailwind CSS para crear un sen
 
 **1. Instalación:**
 
-- Instalar Angular CLI: `npm install -g @angular/cli`
-- Crear un nuevo proyecto: `ng new mi-app`
-- Navegar al proyecto: `cd mi-app`
-- Instalar Tailwind CSS: `npm install tailwindcss`
+- Youtube: [https://www.youtube.com/watch?v=D0C2IkyctVc](https://www.youtube.com/watch?v=D0C2IkyctVc)
+
+* Instalar Angular CLI: `npm install -g @angular/cli`
+* Crear un nuevo proyecto: `ng new mi-app`
+* Navegar al proyecto: `cd mi-app`
+* Instalar Tailwind CSS: `npm install tailwindcss`
 
 **2. Documentación:**
 
